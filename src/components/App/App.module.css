@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(200, 253, 200);
+}
+
+.container {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.loader {
+  text-align: center;
+}

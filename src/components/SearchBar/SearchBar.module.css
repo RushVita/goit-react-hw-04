@@ -1,0 +1,45 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.form {
+  position: relative;
+  z-index: 1;
+}
+.input {
+  width: 300px;
+  font-size: 15px;
+  padding: 10px 30px;
+  background-color: #fff;
+  outline: 1px solid silver;
+  border: transparent;
+  border-radius: 5px;
+}
+.input:focus {
+  outline: 1px solid black;
+}
+.btn {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+
+  background-color: transparent;
+  border: transparent;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(50%, -50%);
+  stroke-width: 5px;
+  background-color: transparent;
+}
