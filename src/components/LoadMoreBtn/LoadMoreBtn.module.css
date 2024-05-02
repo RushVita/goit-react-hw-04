@@ -1,0 +1,21 @@
+.btnMorePhoto {
+    display: block;
+    margin: 30px auto;
+    padding: 12px;
+  
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: lightgrey;
+    border: transparent;
+    border-radius: 5px;
+  
+    transition: scale 0.5s;
+  }
+  
+  .btnMorePhoto:hover {
+    cursor: pointer;
+    color: brown;
+    transition: scale 0.5s 0.15s;
+    scale: 125%;
+  }

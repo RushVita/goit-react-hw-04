@@ -6,11 +6,11 @@ export const fetchArticles = async (searchQuery, currentPage) => {
   const response = await axios.get("search/photos?", {
     params: {
       client_id: "mqDPM0rQiy8nOpN8YSpVraB44q-1-lhs9UalSmc-L1c",
-      per_page: 4,
+      per_page: 16,
       query: searchQuery,
-      pages: currentPage,
+      page: currentPage,
     },
   });
 
-  return response.data.results;
+  return response.data;
 };

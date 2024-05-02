@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: rgb(200, 253, 200);
 }
 
 .container {
@@ -10,5 +9,9 @@
 }
 
 .loader {
+  margin: 30px;
   text-align: center;
 }
+
+
+
